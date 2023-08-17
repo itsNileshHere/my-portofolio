@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Gumela;
+  src: url("./fonts/Gumela_Regular.otf");
+}
+
+* {
+  color: rgb(255 255 255);
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Gumela';
+  background-color: var(--gray);
+}
+
+:root {
+  --yellow: #F5C32C;
+  --orange: #FCA61F;
+  --dorange: #e18e0c;
+  --gray: rgb(17 24 39);
+  --dgray: rgb(27 32 45);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border-radius: 15px;
+  background-color: var(--orange);
+  border: 2px solid var(--orange);
+  padding: 6px 0;
+  text-shadow: #6c4911 0px 0px 10px;
+  transition: all 0.3s ease 0s;
+  width: 6rem
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 10px 0px rgb(124 92 40 / 70%);
+  transition: all 0.2s ease 0s;
+  transform: scale(1.05);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #58585863;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: 2px solid #835e24;
+  padding: 2px;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #835e24;
+}

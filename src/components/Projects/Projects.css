@@ -1,0 +1,45 @@
+.projects {
+    height: 32rem;
+    padding: 5rem 0 0;
+}
+
+.p-head {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0rem 3.5rem 3rem;
+}
+
+.cards {
+    margin: 0 3.5rem 0;
+    height: 50%;
+}
+
+.swiper {
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width:481px) {
+    .projects {
+        padding: 0;
+    }
+
+    .p-cards {
+        height: 16rem;
+    }
+
+    .p-head {
+        margin-bottom: 3.5rem;
+    }
+
+    .cards {
+        margin: 0;
+        height: 56.8%;
+    }
+}

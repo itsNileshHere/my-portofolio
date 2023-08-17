@@ -1,0 +1,94 @@
+.interests {
+    margin: 0 3.5rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.in-head {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem auto 4rem;
+
+}
+
+.in-cards {
+    display: flex;
+    gap: 6%;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.in-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 220px;
+    width: 250px;
+    background-color: var(--dgray);
+    padding: 20px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.in-card .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.in-card .card-text {
+    line-height: 25px;
+    transition: all 0.3s ease;
+    opacity: 0;
+    max-height:0;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background: linear-gradient(90deg,  var(--dorange) 40%, var(--gray) 60%);
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+}
+
+.in-card:hover {
+    height: 260px;
+}
+
+.in-card:hover .card-text {
+    opacity: 1;
+    max-height: 44px;
+}
+
+.in-card:hover .card-img {
+    background-position: -120px;
+    transition: all 0.3s ease;
+}
+
+.in-card:hover .card-img svg path {
+    fill: var(--dorange);
+}
+
+@media (max-width:481px) {
+    .interests {
+        margin: 8rem 1.4rem 0;
+    }
+
+    .in-cards {
+        flex-direction: column;
+        gap: 2rem;
+        height: 100%;
+    }
+
+}

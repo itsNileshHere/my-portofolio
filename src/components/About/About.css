@@ -1,0 +1,90 @@
+.about {
+    margin: 8rem 0 2rem;
+    padding-top: 2.5rem;
+}
+
+.a-head {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 3.5rem;
+}
+
+.a-bodyContainer {
+    transform: skewY(-3deg);
+    height: 360px;
+    display: grid;
+    place-items: center;
+}
+
+.a-bodyContainer::before {
+    content: "";
+    position: absolute;
+    height: 352px;
+    width: 0px;
+    background: white;
+    transition: 1.9s;
+}
+
+.a-bodyContainer:hover::before {
+    width: 100%;
+}
+
+.a-body {
+    display: flex;
+    background-color: var(--dgray);
+    height: 348px;
+    padding: 0 5rem 0;
+    z-index: 1;
+}
+
+.a-bodyPic {
+    flex: 1;
+    transform: skewY(3deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picDiv {
+    height: 14rem;
+    width: 14rem;
+    background-color: var(--gray);
+    border: 5px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.a-bodyInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    transform: skewY(3deg);
+    line-height: 25px;
+}
+
+@media (max-width:481px) {
+    .about {
+        margin: 4rem 0 2rem;
+    }
+
+    .a-bodyContainer {
+        height: 582px;
+    }
+
+    .a-bodyContainer::before {
+        height: 582px;
+    }
+
+    .a-body {
+        flex-direction: column;
+        height: 546px;
+        padding: 1rem 1.4rem 1rem;
+    }
+
+    .a-bodyInfo, .a-bodyPic {
+        flex: 1;
+    }
+}

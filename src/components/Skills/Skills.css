@@ -1,0 +1,159 @@
+.skills {
+    display: flex;
+    padding: 6.5rem 2rem 6.5rem;
+    height: 45rem;
+    margin: 2rem 3.5rem 20px;
+    overflow: hidden;
+}
+
+.s-head {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.s-body {
+    font-size: 0.85rem;
+    margin: 1rem 0 2rem;
+    color: rgb(146, 146, 146);
+}
+
+.s-info {
+    flex: 1;
+    margin-top: 6rem;
+    z-index: 1;
+}
+
+.s-card {
+    position: relative;
+    flex: 2;
+    z-index: 1;
+}
+
+.s-card>* {
+    position: absolute;
+}
+
+.s-card>:nth-child(1) {
+    left: 56%;
+    top: 0rem;
+}
+
+.s-card>:nth-child(2) {
+    right: 53%;
+    top: 25%;
+}
+
+.s-card>:nth-child(3) {
+    left: 52%;
+    top: 49%;
+}
+
+.s-innerWordCloud {
+    position: absolute;
+    width: 88%;
+    z-index: -1000;
+}
+
+.s-innerWordCloud>p {
+    position: absolute;
+    color: rgb(48, 48, 48);
+}
+
+.s-innerWordCloud>:nth-child(1) {
+    top: 0rem;
+    right: 66rem;
+    font-size: 20px;
+}
+
+.s-innerWordCloud>:nth-child(2) {
+    top: 2rem;
+    right: 24rem;
+    font-size: 20px;
+}
+
+.s-innerWordCloud>:nth-child(3) {
+    top: 7rem;
+    right: 42rem;
+    font-size: 20px;
+}
+
+.s-innerWordCloud>:nth-child(4) {
+    top: 36rem;
+    right: 62rem;
+    font-size: 20px;
+}
+
+.s-innerWordCloud>:nth-child(5) {
+    top: 5rem;
+    right: 10rem;
+    font-size: 20px;
+}
+
+.s-innerWordCloud>:nth-child(6) {
+    top: 24rem;
+    right: 67rem;
+    font-size: 20px;
+}
+
+.s-innerWordCloud>:nth-child(7) {
+    top: 38rem;
+    right: 27rem;
+    font-size: 20px;
+}
+
+.s-innerWordCloud>:nth-child(8) {
+    top: 35.5rem;
+    right: 6rem;
+    font-size: 20px;
+}
+
+.s-innerWordCloud>:nth-child(9) {
+    top: 18rem;
+    right: 54rem;
+    font-size: 20px;
+}
+
+.s-innerWordCloud>:nth-child(10) {
+    top: 29rem;
+    right: 43rem;
+    font-size: 20px;
+}
+
+@media (max-width:481px) {
+    .skills {
+        display: block;
+        padding: 0;
+        height: 82rem;
+        margin: 10rem 0 0rem;
+    }
+
+    .s-info {
+        text-align: center;
+        margin: 0 1.4rem 0;
+    }
+
+    .s-body {
+        text-align: justify;
+    }
+
+    .s-card {
+        margin: 0 1.4rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        height: 85%;
+    }
+    .s-card>:nth-child(1),
+    .s-card>:nth-child(2),
+    .s-card>:nth-child(3) {
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 98%;
+    }
+
+    .s-innerWordCloud {
+        display: none;
+    }
+}

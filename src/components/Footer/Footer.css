@@ -1,0 +1,64 @@
+.footer {
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.footerImg {
+    height: 10%;
+    width: 100vw;
+}
+
+.f-content {
+    position: absolute;
+    top: 55%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.1em;
+    gap: 0.8rem;
+    text-shadow: #aa871e 0px 0px 60px;
+    background-color: var(--yellow);
+}
+
+.f-text {
+    /* nileshmukherjee1855@gmail.com */
+
+position: absolute;
+width: 270px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.f-icons {
+    display: flex;
+    align-items: center;
+    margin: 1.2rem;
+    gap: 1.2rem;
+}
+
+.f-github,
+.f-telegram {
+    height: 40px;
+    width: 40px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-radius: 50%;
+}
+
+@media (max-width:481px) {
+    .f-content {
+        gap: 0.2rem;
+        font-size: 15px;
+    }
+}

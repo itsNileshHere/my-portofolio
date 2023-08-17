@@ -1,0 +1,55 @@
+.contact {
+    display: flex;
+    height: 28rem;
+    padding: 8rem 8rem 2rem;
+}
+
+.c-text {
+    text-align: center;
+    flex: 2;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.c-form {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+}
+
+.c-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 70%;
+    
+}
+
+.c-user {
+    background-color: transparent;
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    font-size: 16px;
+    height: 2rem;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width:481px) {
+    .contact {
+        display: block;
+        padding: 5rem 0 0;
+        margin-top: 2rem;
+        height: 40rem;
+    }
+
+    .c-text {
+        margin: 0 0 6.5rem;
+    }
+}
