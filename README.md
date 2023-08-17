@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 To clone the project, run:
-### `git clone https://github.com/X-PROFESSOR/my-portofolio.git`
+### `git clone https://github.com/itsNileshHere/my-portofolio.git`
 
 Run the project by typing:
 
