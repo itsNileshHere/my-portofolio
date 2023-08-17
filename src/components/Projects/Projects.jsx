@@ -55,16 +55,16 @@ const Projects = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Cards
-              p_name={"Lorem ipsum"}
-              p_details={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-              p_link={"https://github.com/X-PROFESSOR/"}
+              p_name={"Video Merger"}
+              p_details={"A simple tool to Merge Videos together"}
+              p_link={"https://github.com/itsNileshHere/Video-Merger"}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Cards
-              p_name={"Lorem ipsum"}
-              p_details={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-              p_link={"https://github.com/X-PROFESSOR/"}
+              p_name={"Icon Cache Rebuilder"}
+              p_details={"A batch script to remove Windows Icon Cache"}
+              p_link={"https://github.com/itsNileshHere/Icon-Cache-Rebuilder"}
             />
           </SwiperSlide>
           <SwiperSlide>

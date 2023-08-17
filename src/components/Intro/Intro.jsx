@@ -15,7 +15,7 @@ const Intro = () => {
           <button>Download CV</button>
         </div>
         <div className="i-connect">
-          <a href='https://github.com/X-PROFESSOR/' target="_blank" rel="noreferrer" style={{ padding: "15px" }}>
+          <a href='https://github.com/itsNileshHere/' target="_blank" rel="noreferrer" style={{ padding: "15px" }}>
             <img src={github} alt="github" height={40} width={40} />
           </a>
           <a href='https://www.linkedin.com/in/nilesh-mukherjee-182a051bb/' target="_blank" rel="noreferrer" style={{ padding: "5px" }}>
