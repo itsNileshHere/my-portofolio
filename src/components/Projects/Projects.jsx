@@ -41,9 +41,9 @@ const Projects = () => {
         <Swiper {...params}>
           <SwiperSlide>
             <Cards
-              p_name={"Portfolio Project"}
-              p_details={"My Portfolio written in ReactJS"}
-              p_link={"https://github.com/X-PROFESSOR/my-portofolio"}
+              p_name={"Windows ISO Debloater"}
+              p_details={"A script helps to create the Ultimate Windows ISO"}
+              p_link={"https://github.com/itsNileshHere/Windows-Iso-Debloater"}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -51,6 +51,13 @@ const Projects = () => {
               p_name={"Online Exam Management System"}
               p_details={"OEMS Using HTML, CSS, Javascript"}
               p_link={"https://github.com/X-PROFESSOR/Exam-Management-System"}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Cards
+              p_name={"Portfolio Project"}
+              p_details={"My Portfolio written in ReactJS"}
+              p_link={"https://github.com/X-PROFESSOR/my-portofolio"}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -65,13 +72,6 @@ const Projects = () => {
               p_name={"Icon Cache Rebuilder"}
               p_details={"A batch script to remove Windows Icon Cache"}
               p_link={"https://github.com/itsNileshHere/Icon-Cache-Rebuilder"}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Cards
-              p_name={"Lorem ipsum"}
-              p_details={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-              p_link={"https://github.com/X-PROFESSOR/"}
             />
           </SwiperSlide>
         </Swiper>
