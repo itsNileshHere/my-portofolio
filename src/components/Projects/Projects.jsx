@@ -50,14 +50,21 @@ const Projects = () => {
             <Cards
               p_name={"Online Exam Management System"}
               p_details={"OEMS Using HTML, CSS, Javascript"}
-              p_link={"https://github.com/X-PROFESSOR/Exam-Management-System"}
+              p_link={"https://github.com/itsNileshHere/Exam-Management-System"}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Cards
               p_name={"Portfolio Project"}
               p_details={"My Portfolio written in ReactJS"}
-              p_link={"https://github.com/X-PROFESSOR/my-portofolio"}
+              p_link={"https://github.com/itsNileshHere/my-portofolio"}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Cards
+              p_name={"Drug Discovery ML Model"}
+              p_details={"Drug Discovery model targeting the SARS coronavirus"}
+              p_link={"https://github.com/itsNileshHere/Drug-Discovery"}
             />
           </SwiperSlide>
           <SwiperSlide>
