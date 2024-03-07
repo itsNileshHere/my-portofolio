@@ -18,7 +18,7 @@ const Intro = () => {
           <a href='https://github.com/itsNileshHere/' target="_blank" rel="noreferrer" style={{ padding: "15px" }}>
             <img src={github} alt="github" height={40} width={40} />
           </a>
-          <a href='https://www.linkedin.com/in/nilesh-mukherjee-182a051bb/' target="_blank" rel="noreferrer" style={{ padding: "5px" }}>
+          <a href='https://www.linkedin.com/in/nmukherjeecse/' target="_blank" rel="noreferrer" style={{ padding: "5px" }}>
             <img src={linkedin} alt="linkedin" height={60} width={60} />
           </a>
           <a href='https://t.me/DsntMtter' target="_blank" rel="noreferrer">
