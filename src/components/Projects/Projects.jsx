@@ -2,7 +2,7 @@ import React from 'react'
 import './Projects.css'
 import Cards from '../P_Cards/P_Cards';
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from "swiper";
+import { Pagination } from "swiper/modules";
 import 'swiper/css'
 import "swiper/css/pagination";
 
@@ -38,7 +38,7 @@ const Projects = () => {
       </div>
 
       <div className='cards'>
-        <Swiper {...params}>
+        <Swiper {...params} className="custom-swiper">
           <SwiperSlide>
             <Cards
               p_name={"Windows ISO Debloater"}
@@ -62,8 +62,8 @@ const Projects = () => {
           </SwiperSlide>
           <SwiperSlide>
             <Cards
-              p_name={"Drug Discovery ML Model"}
-              p_details={"Drug Discovery model targeting the SARS coronavirus"}
+              p_name={"Drug Discovery Pipeline"}
+              p_details={"Drug Discovery targeting the SARS coronavirus"}
               p_link={"https://github.com/itsNileshHere/Drug-Discovery"}
             />
           </SwiperSlide>

@@ -18,6 +18,7 @@ body {
 :root {
   --yellow: #F5C32C;
   --orange: #FCA61F;
+  --dborange: #e89015;
   --dorange: #e18e0c;
   --gray: rgb(17 24 39);
   --dgray: rgb(27 32 45);
@@ -34,12 +35,14 @@ a {
 
 button {
   border-radius: 15px;
-  background-color: var(--orange);
-  border: 2px solid var(--orange);
-  padding: 6px 0;
+  background-color: var(--dborange);
+  border: 2px solid var(--dborange);
+  padding: 5px 0;
   text-shadow: #6c4911 0px 0px 10px;
   transition: all 0.3s ease 0s;
-  width: 6rem
+  width: 6rem;
+  line-height: 1.4;
+  transform-origin: center;
 }
 
 button:hover {

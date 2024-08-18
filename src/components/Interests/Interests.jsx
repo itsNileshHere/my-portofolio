@@ -22,7 +22,7 @@ const Interests = () => {
             </svg>
           </section>
           <p className="card-title">Games</p>
-          <p className="card-text">I love to play games, either that is PVP of Storymode</p>
+          <p className="card-text">I enjoy games, whether they're thrilling PvP or engaging story</p>
         </div>
         <div className="in-card">
           <section className="card-img">
@@ -35,7 +35,7 @@ const Interests = () => {
             </svg>
           </section>
           <p className="card-title">Javascript</p>
-          <p className="card-text">I extremely love to code in Javascript, it's fun</p>
+          <p className="card-text">I have a strong passion for coding in JavaScript</p>
         </div>
         <div className="in-card">
           <section className="card-img">
@@ -47,7 +47,7 @@ const Interests = () => {
             </svg>
           </section>
           <p className="card-title">Coding</p>
-          <p className="card-text">I love to code in differnt languages in free time</p>
+          <p className="card-text">I enjoy exploring different languages in free time</p>
         </div>
       </div>
     </div>

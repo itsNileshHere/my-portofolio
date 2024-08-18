@@ -19,11 +19,18 @@
     height: 100%;
 }
 
-.swiper-slide {
+.custom-swiper .swiper-slide {
     display: flex;
     justify-content: center;
 }
 
+.custom-swiper .swiper-pagination-bullet {
+    background-color: #ffffff;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+    background-color: #e18e0c;
+}
 
 @media (max-width:481px) {
     .projects {

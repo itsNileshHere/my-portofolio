@@ -6,9 +6,21 @@
 
 .name {
     margin-top: 0.8rem;
-    color: var(--yellow);
     font-weight: bolder;
     font-size: 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.name>span {
+    color: var(--yellow);
+}
+.name>span:nth-child(1) {
+    margin-right: 6px;
+}
+
+.name>span:nth-child(2) {
+    margin-left: 6px;
 }
 
 .i-info {
@@ -73,6 +85,10 @@
 }
 
 @media (max-width:481px) {
+    .name {
+        flex-direction: column;
+    }
+
     .intro {
         display: block;
         margin: 8rem 1.4rem 1rem;

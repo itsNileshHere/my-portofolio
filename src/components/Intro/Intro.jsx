@@ -5,23 +5,28 @@ import linkedin from '../../img/linkedin.png'
 import telegram from '../../img/telegram.png'
 
 const Intro = () => {
+
+  const githubLink = "https://github.com/itsNileshHere";
+  const linkedinLink = "https://www.linkedin.com/in/";
+  const telegramLink = "https://t.me/DsntMtter";
+
   return (
     <div className="intro" id='Intro'>
       <div className="i-left">
         <div className="i-name">
           <p style={{ fontSize: "1.25rem" }}>Hello, I'm</p>
-          <p className="name">NILESH MUKHERJEE</p>
+          <p className="name"><span>NILESH</span><span>MUKHERJEE</span></p>
           <p className="i-info">Developer From India</p>
           <button>Download CV</button>
         </div>
         <div className="i-connect">
-          <a href='https://github.com/itsNileshHere/' target="_blank" rel="noreferrer" style={{ padding: "15px" }}>
+          <a href={githubLink} target="_blank" rel="noreferrer" style={{ padding: "15px" }}>
             <img src={github} alt="github" height={40} width={40} />
           </a>
-          <a href='https://www.linkedin.com/in/nmukherjeecse/' target="_blank" rel="noreferrer" style={{ padding: "5px" }}>
+          <a href={linkedinLink} target="_blank" rel="noreferrer" style={{ padding: "5px" }}>
             <img src={linkedin} alt="linkedin" height={60} width={60} />
           </a>
-          <a href='https://t.me/DsntMtter' target="_blank" rel="noreferrer">
+          <a href={telegramLink} target="_blank" rel="noreferrer">
             <img src={telegram} alt="telegram" height={70} width={70} />
           </a>
         </div>
