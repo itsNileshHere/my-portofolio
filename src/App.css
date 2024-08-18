@@ -1,6 +1,6 @@
 @font-face {
   font-family: Gumela;
-  src: url("./fonts/Gumela_Regular.otf");
+  src: url("./fonts/Gumela_Regular.otf") format('opentype');;
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Gumela';
+  font-family: 'Gumela', sans-serif;
   background-color: var(--gray);
 }
 
